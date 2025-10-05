@@ -56,7 +56,7 @@ The `AppIcon` component maps to the correct static font when you provide `weight
 You will have full type support and IntelliSense when using this component (in TypeScript).
 
 ```tsx
-<AppIcon name="heart" weight={300} filled variant="Rounded" />
+<AppIcon name="sos" weight={300} filled variant="Rounded" />
 ```
 
 ## TODO
