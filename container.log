@@ -1,0 +1,201 @@
+bash: line 1: ./generate_material_symbol_icon_names.sh: Permission denied
+🔷 Script started: Sun Oct  5 15:30:30 UTC 2025
+🔷 Loop: style=Sharp weight=100 fill=0 opsz=20
+🔷 Loop: style=Sharp weight=100 fill=0 opsz=24
+🔷 Loop: style=Sharp weight=100 fill=0 opsz=48
+🔷 Loop: style=Sharp weight=100 fill=1 opsz=20
+🔷 Loop: style=Sharp weight=100 fill=1 opsz=24
+🔷 Loop: style=Sharp weight=100 fill=1 opsz=48
+🔷 Loop: style=Sharp weight=200 fill=0 opsz=20
+🔷 Loop: style=Sharp weight=200 fill=0 opsz=24
+Processing: ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf wght=100 FILL=0 opsz=48
+Processing: ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf wght=100 FILL=0 opsz=24
+Processing: ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf wght=200 FILL=0 opsz=20
+Processing: ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf wght=100 FILL=0 opsz=20
+Processing: ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf wght=100 FILL=1 opsz=20
+Processing: ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf wght=100 FILL=1 opsz=24
+Processing: ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf wght=100 FILL=1 opsz=48
+Processing: ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf wght=200 FILL=0 opsz=24
+Restricting axes: {'wght': (200, 200, 200), 'FILL': (0, 0, 0), 'opsz': (20, 20, 20)}
+Restricting axes: {'wght': (100, 100, 100), 'FILL': (0, 0, 0), 'opsz': (24, 24, 24)}
+Loading variable font
+Restricting axes: {'wght': (100, 100, 100), 'FILL': (1, 1, 1), 'opsz': (20, 20, 20)}
+Loading variable font
+Restricting axes: {'wght': (100, 100, 100), 'FILL': (1, 1, 1), 'opsz': (48, 48, 48)}
+Loading variable font
+Traceback (most recent call last):
+  File "/usr/local/bin/fonttools", line 8, in <module>
+Traceback (most recent call last):
+  File "/usr/local/bin/fonttools", line 8, in <module>
+    sys.exit(main())
+    sys.exit(main())
+Traceback (most recent call last):
+  File "/usr/local/bin/fonttools", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/__main__.py", line 31, in main
+             ^^^^^^
+             ^^^^^^
+    runpy.run_module(mod, run_name="__main__")
+  File "/usr/local/lib/python3.12/site-packages/fontTools/__main__.py", line 31, in main
+  File "<frozen runpy>", line 229, in run_module
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__main__.py", line 5, in <module>
+    runpy.run_module(mod, run_name="__main__")
+    sys.exit(main())
+  File "/usr/local/lib/python3.12/site-packages/fontTools/__main__.py", line 31, in main
+             ^^^^^^
+Loading variable font
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__init__.py", line 2017, in main
+  File "<frozen runpy>", line 229, in run_module
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__main__.py", line 5, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__init__.py", line 2017, in main
+Restricting axes: {'wght': (100, 100, 100), 'FILL': (1, 1, 1), 'opsz': (24, 24, 24)}
+    runpy.run_module(mod, run_name="__main__")
+  File "<frozen runpy>", line 229, in run_module
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__main__.py", line 5, in <module>
+Traceback (most recent call last):
+  File "/usr/local/bin/fonttools", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__init__.py", line 2017, in main
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/__main__.py", line 31, in main
+    runpy.run_module(mod, run_name="__main__")
+  File "<frozen runpy>", line 229, in run_module
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__main__.py", line 5, in <module>
+Loading variable font
+    sys.exit(main())
+    varfont = TTFont(
+              ^^^^^^^
+             ^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/ttFont.py", line 189, in __init__
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__init__.py", line 2017, in main
+    self.reader = SFNTReader(file, checkChecksums, fontNumber=fontNumber)
+    varfont = TTFont(
+              ^^^^^^^
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py", line 86, in __init__
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/ttFont.py", line 189, in __init__
+    self.reader = SFNTReader(file, checkChecksums, fontNumber=fontNumber)
+    raise TTLibError("Not a TrueType or OpenType font (bad sfntVersion)")
+fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (bad sfntVersion)
+Traceback (most recent call last):
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/fonttools", line 8, in <module>
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py", line 86, in __init__
+    varfont = TTFont(
+              ^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/ttFont.py", line 189, in __init__
+    raise TTLibError("Not a TrueType or OpenType font (bad sfntVersion)")
+    sys.exit(main())
+fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (bad sfntVersion)
+    self.reader = SFNTReader(file, checkChecksums, fontNumber=fontNumber)
+             ^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/__main__.py", line 31, in main
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py", line 86, in __init__
+    runpy.run_module(mod, run_name="__main__")
+  File "<frozen runpy>", line 229, in run_module
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__main__.py", line 5, in <module>
+    raise TTLibError("Not a TrueType or OpenType font (bad sfntVersion)")
+    sys.exit(main())
+fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (bad sfntVersion)
+             ^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__init__.py", line 2017, in main
+    varfont = TTFont(
+              ^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/ttFont.py", line 189, in __init__
+    self.reader = SFNTReader(file, checkChecksums, fontNumber=fontNumber)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py", line 86, in __init__
+    raise TTLibError("Not a TrueType or OpenType font (bad sfntVersion)")
+fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (bad sfntVersion)
+    varfont = TTFont(
+              ^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/ttFont.py", line 189, in __init__
+    self.reader = SFNTReader(file, checkChecksums, fontNumber=fontNumber)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py", line 86, in __init__
+    raise TTLibError("Not a TrueType or OpenType font (bad sfntVersion)")
+fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (bad sfntVersion)
+Restricting axes: {'wght': (100, 100, 100), 'FILL': (0, 0, 0), 'opsz': (48, 48, 48)}
+Loading variable font
+Traceback (most recent call last):
+  File "/usr/local/bin/fonttools", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/__main__.py", line 31, in main
+    runpy.run_module(mod, run_name="__main__")
+  File "<frozen runpy>", line 229, in run_module
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__main__.py", line 5, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__init__.py", line 2017, in main
+    varfont = TTFont(
+              ^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/ttFont.py", line 189, in __init__
+    self.reader = SFNTReader(file, checkChecksums, fontNumber=fontNumber)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py", line 86, in __init__
+    raise TTLibError("Not a TrueType or OpenType font (bad sfntVersion)")
+fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (bad sfntVersion)
+Restricting axes: {'wght': (200, 200, 200), 'FILL': (0, 0, 0), 'opsz': (24, 24, 24)}
+Loading variable font
+Traceback (most recent call last):
+  File "/usr/local/bin/fonttools", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/__main__.py", line 31, in main
+    runpy.run_module(mod, run_name="__main__")
+  File "<frozen runpy>", line 229, in run_module
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__main__.py", line 5, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__init__.py", line 2017, in main
+    varfont = TTFont(
+              ^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/ttFont.py", line 189, in __init__
+    self.reader = SFNTReader(file, checkChecksums, fontNumber=fontNumber)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py", line 86, in __init__
+    raise TTLibError("Not a TrueType or OpenType font (bad sfntVersion)")
+fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (bad sfntVersion)
+Restricting axes: {'wght': (100, 100, 100), 'FILL': (0, 0, 0), 'opsz': (20, 20, 20)}
+Loading variable font
+Traceback (most recent call last):
+  File "/usr/local/bin/fonttools", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/__main__.py", line 31, in main
+    runpy.run_module(mod, run_name="__main__")
+  File "<frozen runpy>", line 229, in run_module
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__main__.py", line 5, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/varLib/instancer/__init__.py", line 2017, in main
+    varfont = TTFont(
+              ^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/ttFont.py", line 189, in __init__
+    self.reader = SFNTReader(file, checkChecksums, fontNumber=fontNumber)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py", line 86, in __init__
+    raise TTLibError("Not a TrueType or OpenType font (bad sfntVersion)")
+fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (bad sfntVersion)
+❌ ERROR: fonttools failed for ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf
+❌ ERROR: fonttools failed for ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf
+❌ ERROR: fonttools failed for ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf
+❌ ERROR: fonttools failed for ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf
+❌ ERROR: fonttools failed for ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf
+❌ ERROR: fonttools failed for ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf
+❌ ERROR: fonttools failed for ./input/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf
